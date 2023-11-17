@@ -7,7 +7,18 @@ a.home{
 }
 
 footer{
-    background-color: black;
+    background-color:rgb(31, 0, 88);
+    color:white;
+    padding:25px 30px;
+    position: absolute;
+    bottom: 0;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-size: 14px;
+    border-top: 1px solid #D0E0F7;
 }
 
 p.footer{
