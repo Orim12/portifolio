@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+}
+footer{
+    background-color:#008CBA;
+    color:white;
+    padding:25px 30px;
+    position: absolute;
+    bottom: 0;
+    width: 96%;
+    }
