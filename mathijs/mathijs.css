@@ -1,26 +1,41 @@
+@font-face { font-family: Valorax; src: url('Fonts/Valorax-lg25V.otf'); } 
+
 .center{
     text-align: center;
+    align-items: center;
+}
+
+.centeredimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a.home{
-    color: greenyellow;
+    color: rgb(47, 213, 255);
 }
 
 footer{
-    background-color:rgb(31, 0, 88);
+    background-color:rgb(87, 87, 87);
     color:white;
     padding:25px 30px;
     position: absolute;
     bottom: 0;
-    width: 96%;
+    width: 98%;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
-    font-size: 14px;
-    border-top: 1px solid #D0E0F7;
+    font-size: 16px;
+    border-top: 1px solid #000000;
 }
 
 p.footer{
     text-align: center;
+}
+
+.titel{
+    text-align: center;
+    font-family: valorax;
+    color: white;
 }
