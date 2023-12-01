@@ -22,6 +22,7 @@
             <link rel="stylesheet" href="index.css">
             </head>
             <body>
+              <img id="main" src="downloads (2).png" alt=""> 
             
             <h1 class="centered">Portfolio</h1>
             
@@ -62,6 +63,19 @@
             </table>
             </body>
     <footer>
-        
+             
     </footer>
+    <script>
+      window.onload = function() {
+          // Controleer of de afbeelding aanwezig is
+          var afbeelding = document.getElementById('main');
+          
+          if (afbeelding.complete && afbeelding.naturalWidth === 0) {
+              // De afbeelding is verwijderd of kan niet worden geladen
+              document.body.innerHTML = "<h1> een van De afbeeldingen is er niet. Functionaliteit beperkt.</h1>";
+          } else {
+              // Voer hier de rest van je code uit als de afbeelding aanwezig is
+          }
+      };
+  </script>
 </html>
