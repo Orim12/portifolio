@@ -52,7 +52,7 @@
                 <th>
                      <div class="card">
                         <div class="header">
-                            <h1><img class="centeredimage ronde-afbeelding" width="170" height="250" src="Joah/img/profile.jpg"></img></h1>
+                            <h1><img class="centeredimage ronde-afbeelding foto" width="170" height="250" src="Joah/img/profile.jpg"></img></h1>
                         </div>
                 <div class="container">
                   <p><a href="Joah/joah.html">joah</a></p>
@@ -66,16 +66,23 @@
              
     </footer>
     <script>
-      window.onload = function() {
-          // Controleer of de afbeelding aanwezig is
-          var afbeelding = document.getElementById('main');
-          
-          if (afbeelding.complete && afbeelding.naturalWidth === 0) {
-              // De afbeelding is verwijderd of kan niet worden geladen
-              document.body.innerHTML = "<h1> een van De afbeeldingen is er niet. Functionaliteit beperkt.</h1>";
-          } else {
-              // Voer hier de rest van je code uit als de afbeelding aanwezig is
-          }
-      };
+    function controleerAfbeelding() {
+        var afbeelding = document.getElementById('main');
+        
+        if (afbeelding.complete && afbeelding.naturalWidth === 0) {
+            // De afbeelding is verwijderd of kan niet worden geladen
+            document.body.innerHTML = "<h1>De afbeelding is verwijderd. Functionaliteit beperkt.</h1>";
+        } else {
+            // Voer hier de rest van je code uit als de afbeelding aanwezig is
+        }
+    }
+
+    // Controleer elke 10 seconden
+    setInterval(controleerAfbeelding, 1000);
+
+    // Voer de controle ook onmiddellijk uit bij het laden van de pagina
+    controleerAfbeelding();
+</script>
+
   </script>
 </html>
