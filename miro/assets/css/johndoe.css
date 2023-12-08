@@ -14,6 +14,14 @@
 */
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap");
 @import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css');
+@media only screen and (max-width: 600px) {
+  /* CSS-regels voor kleinere schermen (bijv. telefoons) */
+}
+
+@media only screen and (min-width: 601px) {
+  /* CSS-regels voor grotere schermen (bijv. laptops) */
+}
+
 :root {
   --blue: #79A9F5;
   --indigo: #C45F90;
