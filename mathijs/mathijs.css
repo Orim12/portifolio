@@ -1,5 +1,12 @@
-@font-face { font-family: Valorax; src: url('Fonts/Valorax-lg25V.otf'); } 
+@font-face { font-family: Valorax; src: url('Fonts/Valorax-lg25V.otf'); }
 
+body{
+background-color: #000000;
+}
+
+.centerlol{
+text-align: center;
+}
 
 .center{
     text-align: center;
