@@ -1,5 +1,30 @@
-@font-face { font-family: Valorax; src: url('Fonts/Valorax-lg25V.otf'); } 
+@font-face { font-family: Valorax; src: url('Fonts/Valorax-lg25V.otf'); }
 
+@keyframes fadeInAndExpand {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+}
+
+.photo {
+    width: 300px;
+    height: 300px;
+    background-image: url('path_to_your_image.jpg');
+    animation: fadeInAndExpand 1s ease-in-out forwards;
+  }
+
+body{
+background-color: #000000;
+}
+
+.centerlol{
+text-align: center;
+}
 
 .center{
     text-align: center;

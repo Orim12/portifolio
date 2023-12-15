@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(255, 255, 255)
+}
+
+div.card {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  
+  div.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    height: 350px;
+  
+  }
+  
+  div.container {
+    padding: 10px;
+  }
+
+  .centered{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .ronde-afbeelding {
+    overflow:hidden;
+    border-radius: 50%;
+    width: 200px; /* Pas dit aan naar de gewenste breedte van je afbeelding */
+    height: 200px; /* Pas dit aan naar de gewenste hoogte van je afbeelding */
+}
+  .ronde-afbeelding2 {
+    overflow:hidden;
+    border-radius: 50%;
+    width: 200px; /* Pas dit aan naar de gewenste breedte van je afbeelding */
+    height: 250px; /* Pas dit aan naar de gewenste hoogte van je afbeelding */
+}
