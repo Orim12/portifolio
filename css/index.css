@@ -28,11 +28,14 @@ div.card {
   }
   
   .ronde-afbeelding {
-    overflow: hidden;
+    overflow:hidden;
     border-radius: 50%;
     width: 200px; /* Pas dit aan naar de gewenste breedte van je afbeelding */
     height: 200px; /* Pas dit aan naar de gewenste hoogte van je afbeelding */
 }
-.foto{
-  size: 250xp;
+  .ronde-afbeelding2 {
+    overflow:hidden;
+    border-radius: 50%;
+    width: 200px; /* Pas dit aan naar de gewenste breedte van je afbeelding */
+    height: 250px; /* Pas dit aan naar de gewenste hoogte van je afbeelding */
 }
