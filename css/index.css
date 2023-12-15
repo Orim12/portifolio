@@ -33,3 +33,6 @@ div.card {
     width: 200px; /* Pas dit aan naar de gewenste breedte van je afbeelding */
     height: 200px; /* Pas dit aan naar de gewenste hoogte van je afbeelding */
 }
+.foto{
+  size: 250xp;
+}
