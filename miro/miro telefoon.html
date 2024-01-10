@@ -18,19 +18,6 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script>
-    // Functie om te controleren of de gebruiker een telefoon gebruikt
-        function isMobileDevice() {
-            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-          }
-          
-          // Gebruik de functie om te bepalen of de gebruiker een telefoon gebruikt
-          if (isMobileDevice()) {
-            window.location.href= "miro telefoon.html";
-          } else {
-            console.log('De gebruiker gebruikt geen telefoon.');
-          }
-          </script>
     <header class="header">
         <div class="container">
             <div class="header-content">
@@ -72,13 +59,13 @@
     </nav>
     <div class="container-fluid">
         <div id="about" class="row about-section">
-            <div class="col-lg-4 about-card" style="position: relative; left: 400px;">
+            <div class="col-lg-4 about-card">
                 <h3 class="font-weight-light">Who am I ?</h3>
                 <span class="line mb-5"></span>
                 <h5 class="mb-3">een student op aventus laan van mensenrechten</h5>
                 <p class="mt-20" id="leeftijdWeergave"></p>
             </div>
-            <div class="col-lg-4 about-card" style="position: relative; left: 400px;">
+            <div class="col-lg-4 about-card">
                 <h3 class="font-weight-light">Personal Info</h3>
                 <span class="line mb-5"></span>
                 <ul class="mt40 info list-unstyled">
