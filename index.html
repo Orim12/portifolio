@@ -20,6 +20,7 @@
             }
             </style>
             <link rel="stylesheet" href="css/index.css">
+            <link rel="js" href="js/script.js">
             </head>
             <body>
               <a href="https://www.aventus.nl" target="_blank"><img id="main" src="img/downloads (2).png" alt=""></a> 
@@ -31,7 +32,7 @@
                 <tr>
                     <th>
                         <div class="card">
-                            <div class="header">
+                            <div class="header" id="mathijs">
                                     <h1><img class="centeredimage  ronde-afbeelding" width="200" height="200" src="mathijs/images/Mathijs.jpg"></img></h1>
                                 </div>
                             <div class="container">
@@ -41,7 +42,7 @@
                 </th>
                 <th>
                      <div class="card">
-                        <div class="header">
+                        <div class="header" id="miro">
                             <h1><img class="centeredimage ronde-afbeelding2" width="200" height="250" src="miro/assets/imgs/avatar.jpg"></img></h1>
                         </div>
                     <div class="container">
@@ -51,7 +52,7 @@
                 </th>
                 <th>
                      <div class="card">
-                        <div class="header">
+                        <div class="header" id="joah">
                             <h1><img class="centeredimage ronde-afbeelding2" width="170" height="250" src="Joah/img/profile.jpg"></img></h1>
                         </div>
                 <div class="container">
@@ -82,6 +83,27 @@
 
     // Voer de controle ook onmiddellijk uit bij het laden van de pagina
     controleerAfbeelding();
+</script>
+<script>
+          // Voeg een klikgebeurtenis toe aan de div
+          document.getElementById('mathijs').addEventListener('click', function() {
+            // Wijzig de locatie van de pagina
+            window.location.href = 'mathijs/mathijs.html';
+        });
+</script>
+<script>
+  // Voeg een klikgebeurtenis toe aan de div
+  document.getElementById('miro').addEventListener('click', function() {
+    // Wijzig de locatie van de pagina
+    window.location.href = 'miro/miro.html';
+});
+</script>
+<script>
+  // Voeg een klikgebeurtenis toe aan de div
+  document.getElementById('joah').addEventListener('click', function() {
+    // Wijzig de locatie van de pagina
+    window.location.href = 'Joah/joah.html';
+});
 </script>
 
 </html>
